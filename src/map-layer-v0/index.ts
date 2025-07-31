@@ -4,7 +4,7 @@ import Plugin from '../plugin'
 
 export const type = 'map-layer-v0'
 
-type MapLayerV0Config = AddLayerObject
+export type MapLayerV0Config = AddLayerObject
 
 export default class extends Plugin {
     private config: MapLayerV0Config

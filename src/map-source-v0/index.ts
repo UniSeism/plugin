@@ -7,7 +7,7 @@ import Plugin from '../plugin'
 
 export const type = 'map-source-v0'
 
-interface MapSourceV0Config {
+export interface MapSourceV0Config {
     id: string
     source: SourceSpecification | CanvasSourceSpecification
 }
