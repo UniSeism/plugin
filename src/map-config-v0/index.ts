@@ -1,23 +1,23 @@
 import type { LngLatLike, StyleSpecification } from 'maplibre-gl'
 import type { PluginMeta } from '../plugin'
 import Plugin from '../plugin'
-export const type = 'map-source-v1'
+export const type = 'map-config-v0'
 
-export type MapSourceV1Config = {
+export type MapConfigV0Config = {
     style: string | StyleSpecification
     center: LngLatLike
     zoom: number
 }
 
 export default class extends Plugin {
-    private config: MapSourceV1Config
+    private config: MapConfigV0Config
 
-    constructor(meta: PluginMeta, config: MapSourceV1Config) {
+    constructor(meta: PluginMeta, config: MapConfigV0Config) {
         super(meta)
         this.config = config
     }
 
-    public getConfig(): MapSourceV1Config {
+    public getConfig(): MapConfigV0Config {
         return this.config
     }
 }

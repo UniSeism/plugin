@@ -1,4 +1,4 @@
-import MapSourceV1Plugin, { type MapSourceV1Config } from './src/map-source-v1'
+import MapConfigV0Plugin, { type MapConfigV0Config } from './src/map-config-v0'
 import type { PluginMeta } from './src/plugin'
 
-export { MapSourceV1Plugin, type MapSourceV1Config, type PluginMeta }
+export { MapConfigV0Plugin, type MapConfigV0Config, type PluginMeta }
