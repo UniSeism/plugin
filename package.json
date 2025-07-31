@@ -1,6 +1,6 @@
 {
     "name": "@uni-seism/plugin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "AGPL-3.0",
     "author": "seis.im",
     "type": "module",
