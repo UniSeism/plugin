@@ -1,0 +1,23 @@
+{
+    "name": "@uni-seism/plugin",
+    "version": "0.0.2",
+    "license": "AGPL-3.0",
+    "author": "seis.im",
+    "type": "module",
+    "module": "index.ts",
+    "scripts": {
+        "format": "prettier --cache --write ."
+    },
+    "dependencies": {
+        "maplibre-gl": "^5.6.1"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "prettier": "^3.6.2",
+        "prettier-plugin-organize-imports": "^4.2.0",
+        "prettier-plugin-packagejson": "^2.5.19"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}
