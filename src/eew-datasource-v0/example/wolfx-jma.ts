@@ -7,7 +7,7 @@ import type { EstimatedIntensity } from '../schema/v0'
 
 const meta: PluginMeta = {
     name: 'Wolfx JMA EEW Datasource',
-    identifier: 'im.seis.plugin.wolfx.jma.eew',
+    identifier: 'im.seis.plugin.wolfx.eew.jma',
     version: '0.0.1',
     description: 'Wolfx JMA EEW Datasource',
     author: 'seis.im',
