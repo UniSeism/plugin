@@ -1,9 +1,9 @@
 import moment from 'moment'
-import type { PluginMeta, PluginSettings } from '../plugin'
-import type { EewDatasourceV0Config } from './index'
-import EewDatasourceV0Plugin from './index'
-import type EEWSchemaV0 from './schema/v0'
-import type { EstimatedIntensity } from './schema/v0'
+import type { PluginMeta, PluginSettings } from '../../plugin'
+import type { EewDatasourceV0Config } from '../index'
+import EewDatasourceV0Plugin from '../index'
+import type EEWSchemaV0 from '../schema/v0'
+import type { EstimatedIntensity } from '../schema/v0'
 
 const meta: PluginMeta = {
     name: 'Wolfx JMA EEW Datasource',
