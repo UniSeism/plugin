@@ -16,6 +16,7 @@ export type PluginSettingsItem = {
     description: string
     type: 'string' | 'number' | 'boolean'
     default: string | number | boolean
+    interface: `${string}.${string}.${string}`
 }
 
 export type PluginSettings = PluginSettingsItem[]
